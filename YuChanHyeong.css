@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("file:///C:/Users/1203y/profile/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.logotext{
+    height:30vh;
+    display:flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.text{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: baseline;
+}
+
+.logotext h2{
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    font-family: 'jejugothic', sans-serif;
+    font-size: 6em;
+    text-align: justify;
+    color: rgb(119, 246, 243);
+    z-index: 1;
+    mix-blend-mode: overlay;
+}
+
+.text h4{
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    font-family: 'jejugothic', sans-serif;
+    font-size: 2em;
+    text-align: justify;
+    color: rgb(119, 246, 243);
+    z-index: 3;
+    mix-blend-mode: overlay;
+}
+
+.li {
+    line-height: 50%;
+}
+
+a{
+    text-decoration: none;
+}
